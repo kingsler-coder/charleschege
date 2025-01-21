@@ -1,0 +1,23 @@
+h2{
+    color: red;
+    text-align: center;
+    font-family: "DejaVu Sans";
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    color:greenyellow;
+    font-family: cursive;
+}
+td{
+    color:midnightblue;
+    font-family: "DejaVu Serif";
+}

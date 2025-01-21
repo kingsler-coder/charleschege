@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LoginandRegistration</title>
+</head>
+<body>
+<div class="container">
+<!--   Start of Login form-->
+    <div id="Login-form">
+        <h2>Login</h2>
+        <form action="">
+            <div class="form-group">
+            <label for="Login-email">Email</label>
+            <input type="email" id="login-email" name="email"
+            placeholder="Enter Email" required>
+    </div>
+   <div class="form-group">
+       <label for="login-password">password</label>
+       <input type="text" id="login-password" name="login-password"
+       placeholder="Enter password" required>
+   </div>
+    <button type="submit">login</button>
+    </form>
+</div>
+<!--end of login form-->
+<!--start of registration page-->
+<div id="registration-form"></div>
+<h2>Register</h2>
+<form action="">
+    <div class="form-group">
+        <label for="register-name">Full Name</label>
+        <input type="text" id="register-name"name="name"
+        placeholder="Enter-Name" required>
+    </div>
+    <div class="form-group">
+        <label for="register-email;">Email</label>
+        <input type="email" id="register-email;" name="email"
+        placeholder="Enter Email">
+    </div>
+    <div class="form-group">
+        <label for="register-pass">password</label>
+        <input type="password" id="register-pass" name="password"
+        placeholder="Enter password" required>
+    </div>
+    <div class="form-group">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="Female" name="gender">
+    </div>
+    <button type="submit">Register</button>
+</form>
+
+</body>
+</html>
